@@ -1,0 +1,249 @@
+
+FILE: /app/ruleforge-for-woo-lite.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+ 12 | ERROR   | There must be exactly one blank line after the file comment
+ 12 | ERROR   | Missing @package tag in file comment
+ 17 | ERROR   | Inline comments must end in full-stops, exclamation marks, or
+    |         | question marks
+ 19 | WARNING | It is recommended not to use reserved keyword "class" as
+    |         | function parameter name. Found: $class
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Admin/Menu.php
+--------------------------------------------------------------------------------
+FOUND 37 ERRORS AND 7 WARNINGS AFFECTING 31 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | Filenames should be all lowercase with hyphens as word
+    |         | separators. Expected menu.php, but found Menu.php.
+  1 | ERROR   | Class file names should be based on the class name with
+    |         | "class-" prepended. Expected class-menu.php, but found
+    |         | Menu.php.
+  1 | ERROR   | Missing file doc comment
+  4 | WARNING | Possible parse error: class Menu missing opening or closing
+    |         | brace
+  4 | WARNING | Possible parse error: class missing opening or closing brace
+  4 | WARNING | Possible parse error: class missing opening or closing brace
+  4 | ERROR   | Missing doc comment for class Menu
+  5 | WARNING | Possible parse error: non-abstract method defined as abstract
+  5 | ERROR   | A file should either contain function declarations or OO
+    |         | structure declarations, but not both. Found 10 function
+    |         | declaration(s) and 1 OO structure declaration(s). The first
+    |         | function declaration was found on line 5; the first OO
+    |         | declaration was found on line 4
+  5 | ERROR   | Missing doc comment for function upgrade_notice()
+  6 | ERROR   | Missing doc comment for function init()
+ 21 | ERROR   | Missing doc comment for function register()
+ 22 | WARNING | Found unknown capability "manage_woocommerce" in function call
+    |         | to add_submenu_page(). Please check the spelling of the
+    |         | capability. If this is a custom capability, please verify the
+    |         | capability is registered with WordPress via a call to
+    |         | WP_Role(s)->add_cap().
+    |         | Custom capabilities can be made known to this sniff by setting
+    |         | the "custom_capabilities" property in the PHPCS ruleset.
+ 24 | ERROR   | Missing doc comment for function enqueue()
+ 25 | ERROR   | Use Yoda Condition checks, you must.
+ 25 | ERROR   | Use Yoda Condition checks, you must.
+ 29 | ERROR   | Use Yoda Condition checks, you must.
+ 34 | ERROR   | Missing doc comment for function boxes()
+ 39 | ERROR   | Missing doc comment for function render()
+ 42 | ERROR   | Missing doc comment for function box_conditions()
+ 44 | ERROR   | PHP syntax error: syntax error, unexpected token "{", expecting
+    |         | "]"
+ 44 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | '['.
+ 44 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | ':'.
+ 44 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | ':'.
+ 47 | ERROR   | Missing doc comment for function box_actions()
+ 49 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | '['.
+ 49 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | ':'.
+ 49 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | ':'.
+ 53 | ERROR   | Missing doc comment for function box_settings()
+ 55 | ERROR   | Using short ternaries is not allowed as they are rarely used
+    |         | correctly
+ 60 | ERROR   | Missing doc comment for function save()
+ 64 | WARNING | Found unknown capability "manage_woocommerce" in function call
+    |         | to current_user_can(). Please check the spelling of the
+    |         | capability. If this is a custom capability, please verify the
+    |         | capability is registered with WordPress via a call to
+    |         | WP_Role(s)->add_cap().
+    |         | Custom capabilities can be made known to this sniff by setting
+    |         | the "custom_capabilities" property in the PHPCS ruleset.
+ 67 | ERROR   | Processing form data without nonce verification.
+ 68 | ERROR   | Processing form data without nonce verification.
+ 69 | ERROR   | Processing form data without nonce verification.
+ 71 | ERROR   | Processing form data without nonce verification.
+ 72 | ERROR   | Processing form data without nonce verification.
+ 74 | ERROR   | Processing form data without nonce verification.
+ 75 | ERROR   | Processing form data without nonce verification.
+ 78 | ERROR   | Missing doc comment for function upgrade_notice()
+ 79 | WARNING | Found unknown capability "manage_woocommerce" in function call
+    |         | to current_user_can(). Please check the spelling of the
+    |         | capability. If this is a custom capability, please verify the
+    |         | capability is registered with WordPress via a call to
+    |         | WP_Role(s)->add_cap().
+    |         | Custom capabilities can be made known to this sniff by setting
+    |         | the "custom_capabilities" property in the PHPCS ruleset.
+ 83 | ERROR   | Use Yoda Condition checks, you must.
+ 91 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | '$url'.
+ 92 | ERROR   | All output should be run through an escaping function (see the
+    |         | Security sections in the WordPress Developer Handbooks), found
+    |         | 'wp_create_nonce'.
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Actions.php
+--------------------------------------------------------------------------------
+FOUND 8 ERRORS AND 2 WARNINGS AFFECTING 5 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected actions.php, but found Actions.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-actions.php, but found
+    |         |     Actions.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  4 | ERROR   | [ ] Missing doc comment for class Actions
+  5 | ERROR   | [ ] Missing doc comment for function normalize()
+ 45 | WARNING | [ ] The method parameter $ctx is never used
+ 45 | ERROR   | [ ] Method name "toFees" in class Actions is not in snake case
+    |         |     format, try "to_fees"
+ 45 | ERROR   | [ ] Missing doc comment for function toFees()
+ 49 | WARNING | [x] Loose comparisons are not allowed. Expected: "==="; Found:
+    |         |     "=="
+ 49 | ERROR   | [ ] Use Yoda Condition checks, you must.
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Conditions.php
+--------------------------------------------------------------------------------
+FOUND 16 ERRORS AND 2 WARNINGS AFFECTING 8 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected conditions.php, but found
+    |         |     Conditions.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-conditions.php, but
+    |         |     found Conditions.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  4 | ERROR   | [ ] Missing doc comment for class Conditions
+  5 | ERROR   | [ ] Missing doc comment for function match()
+ 13 | ERROR   | [ ] Missing doc comment for function one()
+ 29 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 34 | ERROR   | [ ] Missing doc comment for function cmp()
+ 35 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 35 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 35 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 35 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 35 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 35 | WARNING | [x] Loose comparisons are not allowed. Expected: "==="; Found:
+    |         |     "=="
+ 35 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 35 | WARNING | [x] Loose comparisons are not allowed. Expected: "!=="; Found:
+    |         |     "!="
+ 37 | ERROR   | [ ] Method name "inCart" in class Conditions is not in snake
+    |         |     case format, try "in_cart"
+ 37 | ERROR   | [ ] Missing doc comment for function inCart()
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Repository.php
+--------------------------------------------------------------------------------
+FOUND 14 ERRORS AFFECTING 9 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | Filenames should be all lowercase with hyphens as word
+    |       | separators. Expected repository.php, but found Repository.php.
+  1 | ERROR | Class file names should be based on the class name with "class-"
+    |       | prepended. Expected class-repository.php, but found
+    |       | Repository.php.
+  1 | ERROR | Missing file doc comment
+  4 | ERROR | Missing doc comment for class Repository
+  5 | ERROR | Missing doc comment for function init()
+  9 | ERROR | Method name "registerCPT" in class Repository is not in snake
+    |       | case format, try "register_c_p_t"
+  9 | ERROR | Missing doc comment for function registerCPT()
+ 21 | ERROR | Method name "enforceLiteLimit" in class Repository is not in
+    |       | snake case format, try "enforce_lite_limit"
+ 21 | ERROR | Missing doc comment for function enforceLiteLimit()
+ 48 | ERROR | Method name "activeRules" in class Repository is not in snake
+    |       | case format, try "active_rules"
+ 48 | ERROR | Missing doc comment for function activeRules()
+ 66 | ERROR | Using short ternaries is not allowed as they are rarely used
+    |       | correctly
+ 67 | ERROR | Using short ternaries is not allowed as they are rarely used
+    |       | correctly
+ 68 | ERROR | Using short ternaries is not allowed as they are rarely used
+    |       | correctly
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Context.php
+--------------------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 5 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | Filenames should be all lowercase with hyphens as word
+    |       | separators. Expected context.php, but found Context.php.
+  1 | ERROR | Class file names should be based on the class name with "class-"
+    |       | prepended. Expected class-context.php, but found Context.php.
+  1 | ERROR | Missing file doc comment
+  4 | ERROR | Missing doc comment for class Context
+  5 | ERROR | Method name "fromCart" in class Context is not in snake case
+    |       | format, try "from_cart"
+  5 | ERROR | Missing doc comment for function fromCart()
+ 17 | ERROR | Using short ternaries is not allowed as they are rarely used
+    |       | correctly
+ 28 | ERROR | Method name "isFirstOrder" in class Context is not in snake case
+    |       | format, try "is_first_order"
+ 28 | ERROR | Missing doc comment for function isFirstOrder()
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Woo/Hooks.php
+--------------------------------------------------------------------------------
+FOUND 7 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | Filenames should be all lowercase with hyphens as word
+    |       | separators. Expected hooks.php, but found Hooks.php.
+  1 | ERROR | Class file names should be based on the class name with "class-"
+    |       | prepended. Expected class-hooks.php, but found Hooks.php.
+  1 | ERROR | Missing file doc comment
+  9 | ERROR | Missing doc comment for class Hooks
+ 10 | ERROR | Missing doc comment for function init()
+ 13 | ERROR | Method name "applyRules" in class Hooks is not in snake case
+    |       | format, try "apply_rules"
+ 13 | ERROR | Missing doc comment for function applyRules()
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Plugin.php
+--------------------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+ 1 | ERROR | Filenames should be all lowercase with hyphens as word separators.
+   |       | Expected plugin.php, but found Plugin.php.
+ 1 | ERROR | Class file names should be based on the class name with "class-"
+   |       | prepended. Expected class-plugin.php, but found Plugin.php.
+ 1 | ERROR | Missing file doc comment
+ 4 | ERROR | Missing doc comment for class Plugin
+ 5 | ERROR | Missing doc comment for function init()
+--------------------------------------------------------------------------------
+
+Time: 456ms; Memory: 14MB

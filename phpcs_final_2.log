@@ -1,0 +1,45 @@
+
+FILE: /app/ruleforge-for-woo-lite.php
+--------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 22 | WARNING | It is recommended not to use reserved keyword "class" as
+    |         | function parameter name. Found: $class
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Admin/class-menu.php
+--------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+  99 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+     |         |     expected 6 spaces but found 2 spaces
+ 101 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+     |         |     expected 5 spaces but found 1 space
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/class-actions.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 65 | WARNING | The method parameter $ctx is never used
+ 65 | ERROR   | Missing doc comment for function to_fees()
+----------------------------------------------------------------------
+
+
+FILE: /app/src/Core/class-conditions.php
+--------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 79 | WARNING | [x] Loose comparisons are not allowed. Expected: "==="; Found:
+    |         |     "=="
+ 81 | WARNING | [x] Loose comparisons are not allowed. Expected: "!=="; Found:
+    |         |     "!="
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+Time: 618ms; Memory: 14MB

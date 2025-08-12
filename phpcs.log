@@ -1,0 +1,1392 @@
+
+FILE: /app/ruleforge-for-woo-lite.php
+--------------------------------------------------------------------------------
+FOUND 47 ERRORS AND 1 WARNING AFFECTING 13 LINES
+--------------------------------------------------------------------------------
+ 12 | ERROR   | [ ] There must be exactly one blank line after the file comment
+ 12 | ERROR   | [ ] Missing @package tag in file comment
+ 13 | ERROR   | [x] Inline control structures are not allowed
+ 13 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 13 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 13 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 13 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [ ] Inline comments must end in full-stops, exclamation marks,
+    |         |     or question marks
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call must be
+    |         |     the last content on the line
+ 16 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 16 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 16 | WARNING | [ ] It is recommended not to use reserved keyword "class" as
+    |         |     function parameter name. Found: $class
+ 16 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 16 | ERROR   | [x] Expected 1 space before opening brace; found 0
+ 17 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 17 | ERROR   | [x] Inline control structures are not allowed
+ 17 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 17 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 18 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 18 | ERROR   | [x] No space found after comma in argument list
+ 18 | ERROR   | [x] No space found after comma in argument list
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 19 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 19 | ERROR   | [x] No space found after comma in argument list
+ 19 | ERROR   | [x] No space found after comma in argument list
+ 19 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 20 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 20 | ERROR   | [x] Inline control structures are not allowed
+ 20 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 20 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 21 | ERROR   | [x] Closing parenthesis of a multi-line function call must be
+    |         |     on a line by itself
+ 23 | ERROR   | [x] Opening parenthesis of a multi-line function call must be
+    |         |     the last content on the line
+ 23 | ERROR   | [x] Only one argument is allowed per line in a multi-line
+    |         |     function call
+ 23 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 23 | ERROR   | [x] Expected 1 space before opening brace; found 0
+ 24 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 24 | ERROR   | [x] Inline control structures are not allowed
+ 24 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 24 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 24 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 24 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 25 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 25 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 26 | ERROR   | [x] Closing parenthesis of a multi-line function call must be
+    |         |     on a line by itself
+ 26 | ERROR   | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 44 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Admin/Menu.php
+--------------------------------------------------------------------------------
+FOUND 371 ERRORS AND 9 WARNINGS AFFECTING 67 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected menu.php, but found Menu.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-menu.php, but found
+    |         |     Menu.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  4 | WARNING | [ ] Possible parse error: class Menu missing opening or closing
+    |         |     brace
+  4 | WARNING | [ ] Possible parse error: class missing opening or closing
+    |         |     brace
+  4 | WARNING | [ ] Possible parse error: class missing opening or closing
+    |         |     brace
+  4 | ERROR   | [ ] Missing doc comment for class Menu
+  5 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  5 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+  5 | WARNING | [ ] Possible parse error: non-abstract method defined as
+    |         |     abstract
+  5 | ERROR   | [ ] A file should either contain function declarations or OO
+    |         |     structure declarations, but not both. Found 10 function
+    |         |     declaration(s) and 1 OO structure declaration(s). The first
+    |         |     function declaration was found on line 5; the first OO
+    |         |     declaration was found on line 4
+  5 | ERROR   | [ ] Missing doc comment for function upgrade_notice()
+  6 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  6 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+  6 | ERROR   | [ ] Missing doc comment for function init()
+  7 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  7 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  7 | ERROR   | [x] No space found after comma in argument list
+  7 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+  7 | ERROR   | [x] Short array syntax is not allowed
+  7 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+  7 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  8 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  8 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  8 | ERROR   | [x] No space found after comma in argument list
+  8 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+  8 | ERROR   | [x] Short array syntax is not allowed
+  8 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+  8 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  9 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  9 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+  9 | ERROR   | [x] Opening brace must be the last content on the line
+  9 | ERROR   | [x] Expected 1 space before opening brace; found 0
+  9 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  9 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  9 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  9 | ERROR   | [x] No space found after comma in argument list
+  9 | ERROR   | [x] No space found after comma in argument list
+  9 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  9 | ERROR   | [x] Each PHP statement must be on a line by itself
+  9 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  9 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  9 | ERROR   | [x] Each PHP statement must be on a line by itself
+  9 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  9 | ERROR   | [x] Each PHP statement must be on a line by itself
+ 10 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 10 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 10 | ERROR   | [x] No space found after comma in argument list
+ 10 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 10 | ERROR   | [x] Short array syntax is not allowed
+ 10 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 10 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 11 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 11 | ERROR   | [x] No space found after comma in argument list
+ 11 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 11 | ERROR   | [x] Short array syntax is not allowed
+ 11 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 11 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 12 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 12 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 12 | ERROR   | [x] No space found after comma in argument list
+ 12 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 12 | ERROR   | [x] Short array syntax is not allowed
+ 12 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 12 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 13 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 13 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 14 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 14 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 14 | ERROR   | [ ] Missing doc comment for function register()
+ 15 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 15 | ERROR   | [x] No space found after comma in argument list
+ 15 | ERROR   | [x] No space found after comma in argument list
+ 15 | ERROR   | [x] No space found after comma in argument list
+ 15 | WARNING | [ ] Found unknown capability "manage_woocommerce" in function
+    |         |     call to add_submenu_page(). Please check the spelling of
+    |         |     the capability. If this is a custom capability, please
+    |         |     verify the capability is registered with WordPress via a
+    |         |     call to WP_Role(s)->add_cap().
+    |         |     Custom capabilities can be made known to this sniff by
+    |         |     setting the "custom_capabilities" property in the PHPCS
+    |         |     ruleset.
+ 15 | ERROR   | [x] No space found after comma in argument list
+ 15 | ERROR   | [x] No space found after comma in argument list
+ 15 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 15 | ERROR   | [x] Short array syntax is not allowed
+ 15 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 16 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 16 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 17 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 17 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 17 | ERROR   | [ ] Missing doc comment for function enqueue()
+ 17 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 17 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 18 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | ERROR   | [x] Inline control structures are not allowed
+ 18 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 18 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 19 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 20 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 20 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 2
+ 20 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 20 | ERROR   | [x] Expected 1 space before "==="; 0 found
+ 20 | ERROR   | [x] Expected 1 space after "==="; 0 found
+ 20 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 20 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 20 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 20 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 21 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 21 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 21 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 21 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 21 | ERROR   | [x] Use the __DIR__ constant instead of calling
+    |         |     dirname(__FILE__) (PHP >= 5.3)
+ 21 | ERROR   | [x] No space found after comma in argument list
+ 21 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 21 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 21 | ERROR   | [x] Short array syntax is not allowed
+ 21 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 22 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 22 | ERROR   | [x] Use the __DIR__ constant instead of calling
+    |         |     dirname(__FILE__) (PHP >= 5.3)
+ 22 | ERROR   | [x] No space found after comma in argument list
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 22 | ERROR   | [x] Short array syntax is not allowed
+ 22 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 23 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 23 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 2
+ 24 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 24 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 25 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 25 | ERROR   | [ ] Missing doc comment for function boxes()
+ 26 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 26 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 26 | ERROR   | [x] No space found after comma in argument list
+ 26 | ERROR   | [x] No space found after comma in argument list
+ 26 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 26 | ERROR   | [x] Short array syntax is not allowed
+ 26 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 26 | ERROR   | [x] No space found after comma in argument list
+ 26 | ERROR   | [x] No space found after comma in argument list
+ 26 | ERROR   | [x] No space found after comma in argument list
+ 26 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 27 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 27 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 27 | ERROR   | [x] No space found after comma in argument list
+ 27 | ERROR   | [x] No space found after comma in argument list
+ 27 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 27 | ERROR   | [x] Short array syntax is not allowed
+ 27 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 27 | ERROR   | [x] No space found after comma in argument list
+ 27 | ERROR   | [x] No space found after comma in argument list
+ 27 | ERROR   | [x] No space found after comma in argument list
+ 27 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 28 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 28 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 28 | ERROR   | [x] No space found after comma in argument list
+ 28 | ERROR   | [x] No space found after comma in argument list
+ 28 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 28 | ERROR   | [x] Short array syntax is not allowed
+ 28 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 28 | ERROR   | [x] No space found after comma in argument list
+ 28 | ERROR   | [x] No space found after comma in argument list
+ 28 | ERROR   | [x] No space found after comma in argument list
+ 28 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 29 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 29 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 30 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 30 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 30 | ERROR   | [ ] Missing doc comment for function render()
+ 31 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 32 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 32 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 33 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 33 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 33 | ERROR   | [ ] Missing doc comment for function box_conditions()
+ 33 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 33 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 34 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 34 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 34 | ERROR   | [x] No space found after comma in argument list
+ 34 | ERROR   | [x] No space found after comma in argument list
+ 34 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 35 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 35 | ERROR   | [ ] PHP syntax error: syntax error, unexpected token "{",
+    |         |     expecting "]"
+ 35 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found '['.
+ 35 | ERROR   | [x] Array keys must be surrounded by spaces unless they contain
+    |         |     a string or an integer.
+ 35 | ERROR   | [x] String "type" does not require double quotes; use single
+    |         |     quotes instead
+ 35 | ERROR   | [x] String "subtotal" does not require double quotes; use
+    |         |     single quotes instead
+ 35 | ERROR   | [x] Expected 1 space between the comma and ""op"". Found: no
+    |         |     spaces
+ 35 | ERROR   | [x] String "op" does not require double quotes; use single
+    |         |     quotes instead
+ 35 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found ':'.
+ 35 | ERROR   | [x] String ">=" does not require double quotes; use single
+    |         |     quotes instead
+ 35 | ERROR   | [x] Expected 1 space between the comma and ""value"". Found: no
+    |         |     spaces
+ 35 | ERROR   | [x] String "value" does not require double quotes; use single
+    |         |     quotes instead
+ 35 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found ':'.
+ 35 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 35 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 35 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 35 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 36 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 37 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 37 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 38 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 38 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 38 | ERROR   | [ ] Missing doc comment for function box_actions()
+ 38 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 38 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 39 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 39 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 39 | ERROR   | [x] No space found after comma in argument list
+ 39 | ERROR   | [x] No space found after comma in argument list
+ 39 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 40 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 40 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found '['.
+ 40 | ERROR   | [x] Array keys must be surrounded by spaces unless they contain
+    |         |     a string or an integer.
+ 40 | ERROR   | [x] String "type" does not require double quotes; use single
+    |         |     quotes instead
+ 40 | ERROR   | [x] String "fee_percent" does not require double quotes; use
+    |         |     single quotes instead
+ 40 | ERROR   | [x] Expected 1 space between the comma and ""value"". Found: no
+    |         |     spaces
+ 40 | ERROR   | [x] String "value" does not require double quotes; use single
+    |         |     quotes instead
+ 40 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found ':'.
+ 40 | ERROR   | [x] Expected 1 space between the comma and ""label"". Found: no
+    |         |     spaces
+ 40 | ERROR   | [x] String "label" does not require double quotes; use single
+    |         |     quotes instead
+ 40 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found ':'.
+ 40 | ERROR   | [x] String "Surcharge" does not require double quotes; use
+    |         |     single quotes instead
+ 40 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 41 | WARNING | [x] Found precision alignment of 2 spaces.
+ 41 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 41 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 41 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 41 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 42 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 43 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 43 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 44 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 44 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 44 | ERROR   | [ ] Missing doc comment for function box_settings()
+ 44 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 44 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 45 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 45 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 2 spaces but found 1 space
+ 45 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 45 | ERROR   | [x] No space found after comma in argument list
+ 45 | ERROR   | [x] No space found after comma in argument list
+ 45 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 46 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 46 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 46 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 46 | ERROR   | [x] No space found after comma in argument list
+ 46 | ERROR   | [x] No space found after comma in argument list
+ 46 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 46 | ERROR   | [ ] Using short ternaries is not allowed as they are rarely
+    |         |     used correctly
+ 46 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 47 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 47 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 47 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 47 | ERROR   | [x] No space found after comma in argument list
+ 47 | ERROR   | [x] No space found after comma in argument list
+ 47 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 47 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 48 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 48 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 48 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 48 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 48 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 49 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 50 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 50 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 51 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 51 | ERROR   | [x] Line indented incorrectly; expected 0 tabs, found 1
+ 51 | ERROR   | [ ] Missing doc comment for function save()
+ 51 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 51 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 52 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 52 | ERROR   | [x] Inline control structures are not allowed
+ 52 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 52 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 53 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 53 | ERROR   | [x] Inline control structures are not allowed
+ 53 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 53 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 53 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 53 | WARNING | [ ] Found unknown capability "manage_woocommerce" in function
+    |         |     call to current_user_can(). Please check the spelling of
+    |         |     the capability. If this is a custom capability, please
+    |         |     verify the capability is registered with WordPress via a
+    |         |     call to WP_Role(s)->add_cap().
+    |         |     Custom capabilities can be made known to this sniff by
+    |         |     setting the "custom_capabilities" property in the PHPCS
+    |         |     ruleset.
+ 53 | ERROR   | [x] No space found after comma in argument list
+ 53 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 54 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 54 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 54 | ERROR   | [x] No space found after comma in argument list
+ 54 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 54 | ERROR   | [ ] Processing form data without nonce verification.
+ 54 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 54 | ERROR   | [x] Expected 1 space before ":"; 0 found
+ 54 | ERROR   | [x] Expected 1 space after ":"; 0 found
+ 54 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 55 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 55 | ERROR   | [x] Inline control structures are not allowed
+ 55 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 55 | ERROR   | [ ] Processing form data without nonce verification.
+ 55 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 55 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 55 | ERROR   | [x] No space found after comma in argument list
+ 55 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 55 | ERROR   | [ ] Processing form data without nonce verification.
+ 55 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 55 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 56 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 56 | ERROR   | [x] Inline control structures are not allowed
+ 56 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 56 | ERROR   | [ ] Processing form data without nonce verification.
+ 56 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 56 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 56 | ERROR   | [x] No space found after comma in argument list
+ 56 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 56 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 56 | ERROR   | [ ] Processing form data without nonce verification.
+ 56 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 56 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 56 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 57 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 57 | ERROR   | [x] Inline control structures are not allowed
+ 57 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 57 | ERROR   | [ ] Processing form data without nonce verification.
+ 57 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 57 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 57 | ERROR   | [x] No space found after comma in argument list
+ 57 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 57 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 57 | ERROR   | [ ] Processing form data without nonce verification.
+ 57 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 57 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 57 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 58 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 58 | ERROR   | [x] Whitespace found at end of line
+ 59 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 0
+ 59 | ERROR   | [ ] Missing doc comment for function upgrade_notice()
+ 60 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 60 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 60 | ERROR   | [x] Inline control structures are not allowed
+ 60 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 60 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 60 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 60 | WARNING | [ ] Found unknown capability "manage_woocommerce" in function
+    |         |     call to current_user_can(). Please check the spelling of
+    |         |     the capability. If this is a custom capability, please
+    |         |     verify the capability is registered with WordPress via a
+    |         |     call to WP_Role(s)->add_cap().
+    |         |     Custom capabilities can be made known to this sniff by
+    |         |     setting the "custom_capabilities" property in the PHPCS
+    |         |     ruleset.
+ 60 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 61 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 61 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 62 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 62 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 62 | ERROR   | [x] Inline control structures are not allowed
+ 62 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 62 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 62 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 63 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 63 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 63 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 63 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 64 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 64 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 64 | ERROR   | [x] Inline control structures are not allowed
+ 65 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 65 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 65 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 65 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 66 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 66 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 66 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 66 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found '$url'.
+ 66 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 67 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 67 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found
+    |         |     1
+ 67 | ERROR   | [x] Expected 1 space before "+"; 0 found
+ 67 | ERROR   | [x] Expected 1 space after "+"; 0 found
+ 67 | ERROR   | [ ] All output should be run through an escaping function (see
+    |         |     the Security sections in the WordPress Developer
+    |         |     Handbooks), found 'wp_create_nonce'.
+ 67 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 67 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 67 | ERROR   | [x] Expected 1 space before "+"; 0 found
+ 67 | ERROR   | [x] Expected 1 space after "+"; 0 found
+ 68 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 0
+ 70 | ERROR   | [x] Function closing brace must go on the next line following
+    |         |     the body; found 1 blank lines before brace
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 336 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Actions.php
+--------------------------------------------------------------------------------
+FOUND 133 ERRORS AND 5 WARNINGS AFFECTING 30 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected actions.php, but found Actions.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-actions.php, but found
+    |         |     Actions.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  4 | ERROR   | [ ] Missing doc comment for class Actions
+  5 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  5 | ERROR   | [ ] Missing doc comment for function normalize()
+  5 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  5 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  6 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  6 | WARNING | [x] Equals sign not aligned correctly; expected 1 space but
+    |         |     found 0 spaces
+  6 | ERROR   | [x] Expected 1 space before "="; 0 found
+  6 | ERROR   | [x] Expected 1 space after "="; 0 found
+  6 | ERROR   | [x] Short array syntax is not allowed
+  7 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  7 | ERROR   | [x] No space after opening parenthesis is prohibited
+  7 | ERROR   | [x] No space before closing parenthesis is prohibited
+  7 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+  7 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+  8 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR   | [x] No space after opening parenthesis is prohibited
+  9 | ERROR   | [x] No space before closing parenthesis is prohibited
+  9 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+  9 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 10 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 11 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 11 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 11 | ERROR   | [x] Short array syntax is not allowed
+ 11 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 11 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 11 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 11 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 11 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 11 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 11 | ERROR   | [x] Expected a space before the type cast open parenthesis;
+    |         |     none found
+ 11 | ERROR   | [x] Expected 1 space before "/"; 0 found
+ 11 | ERROR   | [x] Expected 1 space after "/"; 0 found
+ 11 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 11 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 11 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 11 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 11 | ERROR   | [x] When a multi-item array uses associative keys, each value
+    |         |     should start on a new line.
+ 11 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 11 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 12 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 13 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 14 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 14 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 23 spaces but found 1 space
+ 14 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 14 | ERROR   | [x] Expected a space before the type cast open parenthesis;
+    |         |     none found
+ 14 | ERROR   | [x] Expected 1 space before "/"; 0 found
+ 14 | ERROR   | [x] Expected 1 space after "/"; 0 found
+ 14 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 15 | ERROR   | [x] Inline control structures are not allowed
+ 15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 16 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 16 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 16 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 16 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 16 | ERROR   | [x] Short array syntax is not allowed
+ 16 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 16 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 16 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 16 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 16 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 16 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 16 | ERROR   | [x] When a multi-item array uses associative keys, each value
+    |         |     should start on a new line.
+ 16 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 16 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 17 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 19 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 19 | ERROR   | [x] Concat operator must be surrounded by a single space
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 19 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 19 | ERROR   | [x] Short array syntax is not allowed
+ 19 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 19 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 19 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 19 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 19 | ERROR   | [x] When a multi-item array uses associative keys, each value
+    |         |     should start on a new line.
+ 19 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 19 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 20 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 21 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 22 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 23 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 24 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | WARNING | [ ] The method parameter $ctx is never used
+ 25 | ERROR   | [ ] Method name "toFees" in class Actions is not in snake case
+    |         |     format, try "to_fees"
+ 25 | ERROR   | [ ] Missing doc comment for function toFees()
+ 25 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 25 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 26 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 26 | WARNING | [x] Equals sign not aligned correctly; expected 1 space but
+    |         |     found 0 spaces
+ 26 | ERROR   | [x] Expected 1 space before "="; 0 found
+ 26 | ERROR   | [x] Expected 1 space after "="; 0 found
+ 26 | ERROR   | [x] Short array syntax is not allowed
+ 27 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 27 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 27 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 27 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 27 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 28 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 28 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 28 | ERROR   | [x] Inline control structures are not allowed
+ 28 | WARNING | [x] Loose comparisons are not allowed. Expected: "==="; Found:
+    |         |     "=="
+ 28 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 28 | ERROR   | [x] Each PHP statement must be on a line by itself
+ 29 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 29 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 29 | ERROR   | [x] Short array syntax is not allowed
+ 29 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 29 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 29 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 29 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 29 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 29 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 29 | ERROR   | [x] When a multi-item array uses associative keys, each value
+    |         |     should start on a new line.
+ 29 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 30 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 31 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 32 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 129 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Conditions.php
+--------------------------------------------------------------------------------
+FOUND 136 ERRORS AND 2 WARNINGS AFFECTING 26 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected conditions.php, but found
+    |         |     Conditions.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-conditions.php, but
+    |         |     found Conditions.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  4 | ERROR   | [ ] Missing doc comment for class Conditions
+  5 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  5 | ERROR   | [ ] Missing doc comment for function match()
+  5 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  5 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  6 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  6 | ERROR   | [x] No space after opening parenthesis is prohibited
+  6 | ERROR   | [x] No space before closing parenthesis is prohibited
+  6 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+  6 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+  6 | ERROR   | [x] Newline required after opening brace
+  6 | ERROR   | [x] Inline control structures are not allowed
+  6 | ERROR   | [x] Expected 1 space before "!"; 0 found
+  6 | ERROR   | [x] Expected 1 space after "!"; 0 found
+  6 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  6 | ERROR   | [x] No space found after comma in argument list
+  6 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  7 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  8 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR   | [ ] Missing doc comment for function one()
+  9 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  9 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 10 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 11 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 11 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 11 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 12 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 12 | ERROR   | [x] The CASE body must start on the line following the
+    |         |     statement
+ 12 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 12 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 12 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 12 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 12 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 13 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 13 | ERROR   | [x] The CASE body must start on the line following the
+    |         |     statement
+ 13 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 13 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 13 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 13 | ERROR   | [x] Short array syntax is not allowed
+ 13 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 13 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 14 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 14 | ERROR   | [x] The CASE body must start on the line following the
+    |         |     statement
+ 14 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 14 | ERROR   | [x] Expected a space before the type cast open parenthesis;
+    |         |     none found
+ 14 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 14 | ERROR   | [x] Short array syntax is not allowed
+ 14 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 15 | ERROR   | [x] The CASE body must start on the line following the
+    |         |     statement
+ 15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 15 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 15 | ERROR   | [x] Short array syntax is not allowed
+ 15 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 16 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 16 | ERROR   | [x] The CASE body must start on the line following the
+    |         |     statement
+ 16 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 16 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 16 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 16 | ERROR   | [x] Short array syntax is not allowed
+ 16 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 16 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 17 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 17 | ERROR   | [x] The CASE body must start on the line following the
+    |         |     statement
+ 17 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 17 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 17 | ERROR   | [x] Expected a space before the type cast open parenthesis;
+    |         |     none found
+ 17 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 17 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 17 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 17 | ERROR   | [x] Short array syntax is not allowed
+ 17 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 17 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 17 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 18 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | ERROR   | [x] The CASE body must start on the line following the
+    |         |     statement
+ 18 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 18 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 18 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 18 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 18 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 19 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 19 | ERROR   | [x] The DEFAULT body must start on the line following the
+    |         |     statement
+ 20 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 21 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 22 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 22 | ERROR   | [ ] Missing doc comment for function cmp()
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 space between comma and argument "$op"; 0 found
+ 22 | ERROR   | [x] Expected 1 space between comma and argument "$b"; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 23 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 23 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 23 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 23 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 23 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 23 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 23 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 23 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 23 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 23 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 23 | WARNING | [x] Loose comparisons are not allowed. Expected: "==="; Found:
+    |         |     "=="
+ 23 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 23 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 23 | WARNING | [x] Loose comparisons are not allowed. Expected: "!=="; Found:
+    |         |     "!="
+ 23 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 23 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 23 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 23 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 23 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 24 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | ERROR   | [ ] Method name "inCart" in class Conditions is not in snake
+    |         |     case format, try "in_cart"
+ 25 | ERROR   | [ ] Missing doc comment for function inCart()
+ 25 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 25 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 26 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 26 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 26 | ERROR   | [x] No space found after comma in argument list
+ 26 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 27 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 27 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 27 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 27 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 27 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 28 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 122 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Repository.php
+--------------------------------------------------------------------------------
+FOUND 178 ERRORS AND 11 WARNINGS AFFECTING 41 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected repository.php, but found
+    |         |     Repository.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-repository.php, but
+    |         |     found Repository.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  4 | ERROR   | [ ] Missing doc comment for class Repository
+  5 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  5 | ERROR   | [ ] Missing doc comment for function init()
+  6 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  6 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  6 | ERROR   | [x] No space found after comma in argument list
+  6 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+  6 | ERROR   | [x] Short array syntax is not allowed
+  6 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+  6 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  7 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  7 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  7 | ERROR   | [x] No space found after comma in argument list
+  7 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+  7 | ERROR   | [x] Short array syntax is not allowed
+  7 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+  7 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  8 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR   | [ ] Method name "registerCPT" in class Repository is not in
+    |         |     snake case format, try "register_c_p_t"
+  9 | ERROR   | [ ] Missing doc comment for function registerCPT()
+ 10 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 10 | ERROR   | [x] Opening parenthesis of a multi-line function call must be
+    |         |     the last content on the line
+ 10 | ERROR   | [x] No space found after comma in argument list
+ 10 | ERROR   | [x] Only one argument is allowed per line in a multi-line
+    |         |     function call
+ 10 | ERROR   | [x] Short array syntax is not allowed
+ 11 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | WARNING | [x] Array double arrow not aligned correctly; expected 8
+    |         |     space(s) between "'label'" and double arrow, but found 0.
+ 11 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 11 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 12 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 12 | WARNING | [x] Array double arrow not aligned correctly; expected 7
+    |         |     space(s) between "'public'" and double arrow, but found 0.
+ 12 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 12 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 13 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 13 | WARNING | [x] Array double arrow not aligned correctly; expected 6
+    |         |     space(s) between "'show_ui'" and double arrow, but found 0.
+ 13 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 13 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 14 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 14 | WARNING | [x] Array double arrow not aligned correctly; expected 1
+    |         |     space(s) between "'show_in_menu'" and double arrow, but
+    |         |     found 0.
+ 14 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 14 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 15 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 15 | WARNING | [x] Array double arrow not aligned correctly; expected 5
+    |         |     space(s) between "'supports'" and double arrow, but found
+    |         |     0.
+ 15 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 15 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 15 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 15 | ERROR   | [x] Short array syntax is not allowed
+ 15 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 16 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 16 | ERROR   | [x] Closing parenthesis of a multi-line function call must be
+    |         |     on a line by itself
+ 17 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | ERROR   | [ ] Method name "enforceLiteLimit" in class Repository is not
+    |         |     in snake case format, try "enforce_lite_limit"
+ 18 | ERROR   | [ ] Missing doc comment for function enforceLiteLimit()
+ 19 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 19 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 7 spaces but found 1 space
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 19 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 19 | ERROR   | [x] Short array syntax is not allowed
+ 19 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 19 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 19 | ERROR   | [x] When a multi-item array uses associative keys, each value
+    |         |     should start on a new line.
+ 19 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 19 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 20 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 20 | ERROR   | [x] Short array syntax is not allowed
+ 21 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 21 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 21 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 21 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 21 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 21 | ERROR   | [x] Newline required after opening brace
+ 21 | ERROR   | [x] Inline control structures are not allowed
+ 21 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 21 | ERROR   | [x] No space found after comma in argument list
+ 21 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 22 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 22 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 22 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 22 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 22 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 23 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 23 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 23 | ERROR   | [x] No space found after comma in argument list
+ 23 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 24 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 24 | ERROR   | [x] Inline control structures are not allowed
+ 24 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 24 | ERROR   | [x] No space found after comma in argument list
+ 24 | ERROR   | [x] No space found after comma in argument list
+ 24 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 25 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | ERROR   | [x] Opening parenthesis of a multi-line function call must be
+    |         |     the last content on the line
+ 25 | ERROR   | [x] Only one argument is allowed per line in a multi-line
+    |         |     function call
+ 25 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 25 | ERROR   | [x] Expected 1 space before opening brace; found 0
+ 26 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 27 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 27 | ERROR   | [x] Closing parenthesis of a multi-line function call must be
+    |         |     on a line by itself
+ 28 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 29 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 30 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 30 | ERROR   | [ ] Method name "activeRules" in class Repository is not in
+    |         |     snake case format, try "active_rules"
+ 30 | ERROR   | [ ] Missing doc comment for function activeRules()
+ 31 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 31 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 3 spaces but found 1 space
+ 31 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 31 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 31 | ERROR   | [x] Short array syntax is not allowed
+ 31 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 31 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 31 | ERROR   | [x] When a multi-item array uses associative keys, each value
+    |         |     should start on a new line.
+ 31 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 31 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 32 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 32 | ERROR   | [x] Short array syntax is not allowed
+ 33 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 33 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 33 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 33 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 33 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 34 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 34 | ERROR   | [x] Inline control structures are not allowed
+ 34 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 34 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 34 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 34 | ERROR   | [x] No space found after comma in argument list
+ 34 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 35 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 35 | ERROR   | [x] Short array syntax is not allowed
+ 36 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 36 | WARNING | [x] Array double arrow not aligned correctly; expected 9
+    |         |     space(s) between "'id'" and double arrow, but found 0.
+ 36 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 36 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 37 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 37 | WARNING | [x] Array double arrow not aligned correctly; expected 3
+    |         |     space(s) between "'priority'" and double arrow, but found
+    |         |     0.
+ 37 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 37 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 37 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 37 | ERROR   | [x] No space found after comma in argument list
+ 37 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 37 | ERROR   | [ ] Using short ternaries is not allowed as they are rarely
+    |         |     used correctly
+ 37 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 38 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 38 | WARNING | [x] Array double arrow not aligned correctly; expected 1
+    |         |     space(s) between "'conditions'" and double arrow, but found
+    |         |     0.
+ 38 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 38 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 38 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 38 | ERROR   | [x] Expected a space before the type cast open parenthesis;
+    |         |     none found
+ 38 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 38 | ERROR   | [x] No space found after comma in argument list
+ 38 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 38 | ERROR   | [ ] Using short ternaries is not allowed as they are rarely
+    |         |     used correctly
+ 38 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 39 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 39 | WARNING | [x] Array double arrow not aligned correctly; expected 4
+    |         |     space(s) between "'actions'" and double arrow, but found 0.
+ 39 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 39 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 39 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 39 | ERROR   | [x] Expected a space before the type cast open parenthesis;
+    |         |     none found
+ 39 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 39 | ERROR   | [x] No space found after comma in argument list
+ 39 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 39 | ERROR   | [ ] Using short ternaries is not allowed as they are rarely
+    |         |     used correctly
+ 39 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 40 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 41 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 42 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 43 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 175 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/Context.php
+--------------------------------------------------------------------------------
+FOUND 98 ERRORS AND 11 WARNINGS AFFECTING 28 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected context.php, but found Context.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-context.php, but found
+    |         |     Context.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  4 | ERROR   | [ ] Missing doc comment for class Context
+  5 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  5 | ERROR   | [ ] Method name "fromCart" in class Context is not in snake
+    |         |     case format, try "from_cart"
+  5 | ERROR   | [ ] Missing doc comment for function fromCart()
+  5 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+  5 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+  6 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  6 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 7 spaces but found 1 space
+  7 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  7 | ERROR   | [x] Short array syntax is not allowed
+  8 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  8 | ERROR   | [x] No space after opening parenthesis is prohibited
+  8 | ERROR   | [x] No space before closing parenthesis is prohibited
+  8 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+  8 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+  9 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 34 spaces but found 1 space
+  9 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+  9 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 10 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 10 | ERROR   | [x] Inline control structures are not allowed
+ 10 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 10 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 10 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 10 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 10 | ERROR   | [x] Expected 1 space after cast statement; 0 found
+ 11 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 12 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 12 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 4 spaces but found 1 space
+ 13 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 13 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 3 spaces but found 1 space
+ 13 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 13 | ERROR   | [x] Short array syntax is not allowed
+ 13 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 14 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 14 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 space after open parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [ ] Using short ternaries is not allowed as they are rarely
+    |         |     used correctly
+ 15 | ERROR   | [x] Expected 1 space before close parenthesis; 0 found
+ 16 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 16 | ERROR   | [x] Short array syntax is not allowed
+ 17 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 17 | WARNING | [x] Array double arrow not aligned correctly; expected 4
+    |         |     space(s) between "'subtotal'" and double arrow, but found
+    |         |     0.
+ 17 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 18 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | WARNING | [x] Array double arrow not aligned correctly; expected 1
+    |         |     space(s) between "'product_ids'" and double arrow, but
+    |         |     found 0.
+ 18 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 19 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 19 | WARNING | [x] Array double arrow not aligned correctly; expected 2
+    |         |     space(s) between "'user_roles'" and double arrow, but found
+    |         |     0.
+ 19 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 20 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 20 | WARNING | [x] Array double arrow not aligned correctly; expected 5
+    |         |     space(s) between "'country'" and double arrow, but found 0.
+ 20 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 21 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 21 | WARNING | [x] Array double arrow not aligned correctly; expected 5
+    |         |     space(s) between "'gateway'" and double arrow, but found 0.
+ 21 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 22 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 22 | WARNING | [x] Array double arrow not aligned correctly; expected 9
+    |         |     space(s) between "'dow'" and double arrow, but found 0.
+ 22 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 23 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 23 | WARNING | [x] Array double arrow not aligned correctly; expected 1
+    |         |     space(s) between "'first_order'" and double arrow, but
+    |         |     found 0.
+ 23 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 24 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 25 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 26 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 26 | ERROR   | [ ] Method name "isFirstOrder" in class Context is not in snake
+    |         |     case format, try "is_first_order"
+ 26 | ERROR   | [ ] Missing doc comment for function isFirstOrder()
+ 27 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 27 | ERROR   | [x] Inline control structures are not allowed
+ 27 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 27 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 27 | ERROR   | [x] Each PHP statement must be on a line by itself
+ 28 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 28 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 28 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 28 | ERROR   | [x] Short array syntax is not allowed
+ 28 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 28 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 28 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 28 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 28 | ERROR   | [x] Expected 1 space before "=>"; 0 found
+ 28 | ERROR   | [x] Expected 1 space after "=>"; 0 found
+ 28 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 28 | ERROR   | [x] Short array syntax is not allowed
+ 28 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 28 | ERROR   | [x] When a multi-item array uses associative keys, each value
+    |         |     should start on a new line.
+ 28 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 28 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 29 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 29 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 29 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 30 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 100 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Woo/Hooks.php
+--------------------------------------------------------------------------------
+FOUND 56 ERRORS AND 2 WARNINGS AFFECTING 16 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [ ] Filenames should be all lowercase with hyphens as word
+    |         |     separators. Expected hooks.php, but found Hooks.php.
+  1 | ERROR   | [ ] Class file names should be based on the class name with
+    |         |     "class-" prepended. Expected class-hooks.php, but found
+    |         |     Hooks.php.
+  1 | ERROR   | [ ] Missing file doc comment
+  9 | ERROR   | [ ] Missing doc comment for class Hooks
+ 10 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 10 | ERROR   | [ ] Missing doc comment for function init()
+ 11 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 11 | ERROR   | [x] Expected 1 space after the array opener in a single line
+    |         |     array. Found: no spaces
+ 11 | ERROR   | [x] Short array syntax is not allowed
+ 11 | ERROR   | [x] Expected 1 space before the array closer in a single line
+    |         |     array. Found: no spaces
+ 11 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 12 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 13 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 13 | ERROR   | [ ] Method name "applyRules" in class Hooks is not in snake
+    |         |     case format, try "apply_rules"
+ 13 | ERROR   | [ ] Missing doc comment for function applyRules()
+ 13 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 13 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 14 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 14 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 5 spaces but found 1 space
+ 14 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 14 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 15 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 15 | ERROR   | [x] Short array syntax is not allowed
+ 16 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 16 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 16 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 16 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 16 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 17 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 17 | ERROR   | [x] Inline control structures are not allowed
+ 17 | ERROR   | [x] Expected 1 space before "!"; 0 found
+ 17 | ERROR   | [x] Expected 1 space after "!"; 0 found
+ 17 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 17 | ERROR   | [x] No space found after comma in argument list
+ 17 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 18 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 18 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 4 spaces but found 1 space
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 18 | ERROR   | [x] No space found after comma in argument list
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 19 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 19 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 20 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 21 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 21 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 21 | ERROR   | [x] No space found after comma in argument list
+ 21 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 22 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+ 22 | ERROR   | [x] No space after opening parenthesis is prohibited
+ 22 | ERROR   | [x] No space before closing parenthesis is prohibited
+ 22 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0
+ 22 | ERROR   | [x] Space between opening control structure and closing
+    |         |     parenthesis is required
+ 22 | ERROR   | [x] Newline required after opening brace
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found
+ 23 | ERROR   | [x] Tabs must be used to indent lines; spaces are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 51 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Plugin.php
+--------------------------------------------------------------------------------
+FOUND 21 ERRORS AFFECTING 9 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [ ] Filenames should be all lowercase with hyphens as word
+    |       |     separators. Expected plugin.php, but found Plugin.php.
+  1 | ERROR | [ ] Class file names should be based on the class name with
+    |       |     "class-" prepended. Expected class-plugin.php, but found
+    |       |     Plugin.php.
+  1 | ERROR | [ ] Missing file doc comment
+  4 | ERROR | [ ] Missing doc comment for class Plugin
+  5 | ERROR | [x] Tabs must be used to indent lines; spaces are not allowed
+  5 | ERROR | [ ] Missing doc comment for function init()
+  5 | ERROR | [x] Expected 1 spaces after opening parenthesis; 0 found
+  5 | ERROR | [x] Expected 1 spaces before closing parenthesis; 0 found
+  6 | ERROR | [x] Tabs must be used to indent lines; spaces are not allowed
+  6 | ERROR | [x] Expected 1 spaces after opening parenthesis; 0 found
+  6 | ERROR | [x] Expected 1 spaces after opening parenthesis; 0 found
+  6 | ERROR | [x] Expected 1 spaces after opening parenthesis; 0 found
+  6 | ERROR | [x] Expected 1 spaces before closing parenthesis; 0 found
+  6 | ERROR | [x] Expected 1 spaces before closing parenthesis; 0 found
+  6 | ERROR | [x] Concat operator must be surrounded by a single space
+  6 | ERROR | [x] Expected 1 spaces before closing parenthesis; 0 found
+  7 | ERROR | [x] Tabs must be used to indent lines; spaces are not allowed
+  8 | ERROR | [x] Tabs must be used to indent lines; spaces are not allowed
+  9 | ERROR | [x] Tabs must be used to indent lines; spaces are not allowed
+ 10 | ERROR | [x] Tabs must be used to indent lines; spaces are not allowed
+ 11 | ERROR | [x] Tabs must be used to indent lines; spaces are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 16 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+Time: 478ms; Memory: 14MB

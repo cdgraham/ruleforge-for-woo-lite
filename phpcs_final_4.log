@@ -1,0 +1,24 @@
+
+FILE: /app/ruleforge-for-woo-lite.php
+--------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 22 | WARNING | It is recommended not to use reserved keyword "class" as
+    |         | function parameter name. Found: $class
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/class-conditions.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+ 69 | ERROR   | [ ] Missing doc comment for function cmp()
+ 80 | WARNING | [x] Loose comparisons are not allowed. Expected: "==="; Found:
+    |         |     "=="
+ 82 | WARNING | [x] Loose comparisons are not allowed. Expected: "!=="; Found:
+    |         |     "!="
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+Time: 559ms; Memory: 14MB

@@ -9,18 +9,40 @@
  * Author: Your Company
  * License: GPLv2 or later
  * Text Domain: ruleforge-lite
+ *
+ * @package ruleforge-for-woo-lite
  */
-if (!defined('ABSPATH')) exit;
 
-// Autoloader
-spl_autoload_register(function($class){
-    if (strpos($class, 'RuleForgeLite\\') !== 0) return;
-    $path = __DIR__ . '/src/' . str_replace('RuleForgeLite\\','',$class);
-    $path = str_replace('\\','/',$path) . '.php';
-    if (file_exists($path)) require_once $path;
-});
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
-add_action('plugins_loaded', function(){
-    if (!class_exists('WooCommerce')) return;
-    \RuleForgeLite\Plugin::init(__FILE__);
-});
+// Autoloader.
+spl_autoload_register(
+	function ( $class ) {
+		if ( strpos( $class, 'RuleForgeLite\\' ) !== 0 ) {
+			return;
+		}
+
+		$parts      = explode( '\\', $class );
+		$class_name = array_pop( $parts );
+		$class_name = 'class-' . strtolower( $class_name ) . '.php';
+
+		$path = __DIR__ . '/src/' . implode( '/', $parts ) . '/' . $class_name;
+		$path = str_replace( 'RuleForgeLite/', '', $path );
+
+		if ( file_exists( $path ) ) {
+			require_once $path;
+		}
+	}
+);
+
+add_action(
+	'plugins_loaded',
+	function () {
+		if ( ! class_exists( 'WooCommerce' ) ) {
+			return;
+		}
+		\RuleForgeLite\Plugin::init( __FILE__ );
+	}
+);

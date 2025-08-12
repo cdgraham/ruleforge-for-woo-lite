@@ -1,0 +1,53 @@
+
+FILE: /app/ruleforge-for-woo-lite.php
+--------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 22 | WARNING | [ ] It is recommended not to use reserved keyword "class" as
+    |         |     function parameter name. Found: $class
+ 27 | WARNING | [x] Equals sign not aligned with surrounding assignments;
+    |         |     expected 6 spaces but found 1 space
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Admin/class-menu.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 100 | ERROR | Using short ternaries is not allowed as they are rarely used
+     |       | correctly
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/Core/class-actions.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 64 | WARNING | The method parameter $ctx is never used
+----------------------------------------------------------------------
+
+
+FILE: /app/src/Core/class-conditions.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+ 54 | ERROR   | [ ] Use Yoda Condition checks, you must.
+ 79 | WARNING | [x] Loose comparisons are not allowed. Expected: "==="; Found:
+    |         |     "=="
+ 81 | WARNING | [x] Loose comparisons are not allowed. Expected: "!=="; Found:
+    |         |     "!="
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: /app/src/class-plugin.php
+----------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------------
+ 25 | WARNING | This comment is 50% valid code; is this commented out code?
+----------------------------------------------------------------------------
+
+Time: 522ms; Memory: 14MB
