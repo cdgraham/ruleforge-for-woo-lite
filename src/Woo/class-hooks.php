@@ -1,4 +1,10 @@
 <?php
+/**
+ * Hooks
+ *
+ * @package ruleforge-lite
+ */
+
 namespace RuleForgeLite\Woo;
 
 use RuleForgeLite\Core\Repository;

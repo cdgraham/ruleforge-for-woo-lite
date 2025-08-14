@@ -53,7 +53,7 @@ class Conditions {
 			case 'day_of_week':
 				return in_array( (int) $ctx['dow'], array_map( 'intval', (array) ( $c['in'] ?? array() ) ), true );
 			case 'first_order':
-				return (bool) $ctx['first_order'] === (bool) ( $c['value'] ?? true );
+				return (bool) ( $c['value'] ?? true ) === (bool) $ctx['first_order'];
 			default:
 				return false;
 		}
