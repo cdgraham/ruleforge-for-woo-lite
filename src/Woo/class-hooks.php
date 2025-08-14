@@ -30,8 +30,8 @@ class Hooks {
 			if ( ! Conditions::match( $rule['conditions'], $ctx ) ) {
 				continue;
 			}
-			$acts      = Actions::normalize( $rule['actions'], $ctx );
-			$applied   = array_merge( $applied, $acts );
+			$acts    = Actions::normalize( $rule['actions'], $ctx );
+			$applied = array_merge( $applied, $acts );
 		}
 		$fees = Actions::to_fees( $applied, $ctx );
 		foreach ( $fees as $fee ) {

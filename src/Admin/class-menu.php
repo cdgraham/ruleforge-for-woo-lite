@@ -49,8 +49,8 @@ class Menu {
 		}
 		$screen = get_current_screen();
 		if ( $screen && 'fee_rule' === $screen->post_type ) {
-			wp_enqueue_style( 'ruleforge-lite', plugins_url( 'assets/css/admin.css', dirname( __FILE__, 2 ) ), array(), '0.9.0' );
-			wp_enqueue_script( 'ruleforge-lite', plugins_url( 'assets/js/editor.js', dirname( __FILE__, 2 ) ), array( 'jquery' ), '0.9.0', true );
+			wp_enqueue_style( 'ruleforge-lite', plugins_url( 'assets/css/admin.css', dirname( __DIR__, 1 ) ), array(), '0.9.0' );
+			wp_enqueue_script( 'ruleforge-lite', plugins_url( 'assets/js/editor.js', dirname( __DIR__, 1 ) ), array( 'jquery' ), '0.9.0', true );
 		}
 	}
 

@@ -85,7 +85,7 @@ class Repository {
 	 * @return array
 	 */
 	public static function active_rules(): array {
-		$q = get_posts(
+		$q   = get_posts(
 			array(
 				'post_type'   => 'fee_rule',
 				'post_status' => 'publish',

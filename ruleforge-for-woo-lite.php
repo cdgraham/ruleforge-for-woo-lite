@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Autoloader.
 spl_autoload_register(
-	function( $class ) {
+	function ( $class ) {
 		if ( strpos( $class, 'RuleForgeLite\\' ) !== 0 ) {
 			return;
 		}
@@ -37,7 +37,12 @@ spl_autoload_register(
 	}
 );
 
-add_action('plugins_loaded', function(){
-    if (!class_exists('WooCommerce')) return;
-    \RuleForgeLite\Plugin::init(__FILE__);
-});
+add_action(
+	'plugins_loaded',
+	function () {
+		if ( ! class_exists( 'WooCommerce' ) ) {
+			return;
+		}
+		\RuleForgeLite\Plugin::init( __FILE__ );
+	}
+);
