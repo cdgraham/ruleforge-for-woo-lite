@@ -9,16 +9,33 @@
  * Author: Your Company
  * License: GPLv2 or later
  * Text Domain: ruleforge-lite
+ *
+ * @package ruleforge-lite
  */
-if (!defined('ABSPATH')) exit;
 
-// Autoloader
-spl_autoload_register(function($class){
-    if (strpos($class, 'RuleForgeLite\\') !== 0) return;
-    $path = __DIR__ . '/src/' . str_replace('RuleForgeLite\\','',$class);
-    $path = str_replace('\\','/',$path) . '.php';
-    if (file_exists($path)) require_once $path;
-});
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+// Autoloader.
+spl_autoload_register(
+	function( $class ) {
+		if ( strpos( $class, 'RuleForgeLite\\' ) !== 0 ) {
+			return;
+		}
+
+		$path = str_replace( 'RuleForgeLite\\', '', $class );
+		$path = str_replace( '\\', '/', $path );
+
+		$parts = explode( '/', $path );
+		$file  = 'class-' . strtolower( array_pop( $parts ) ) . '.php';
+		$path  = __DIR__ . '/src/' . implode( '/', $parts ) . ( $parts ? '/' : '' ) . $file;
+
+		if ( file_exists( $path ) ) {
+			require_once $path;
+		}
+	}
+);
 
 add_action('plugins_loaded', function(){
     if (!class_exists('WooCommerce')) return;
