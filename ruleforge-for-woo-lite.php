@@ -19,12 +19,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Autoloader.
 spl_autoload_register(
-	function ( $class ) {
-		if ( strpos( $class, 'RuleForgeLite\\' ) !== 0 ) {
+	function ( $class_name ) {
+		if ( strpos( $class_name, 'RuleForgeLite\\' ) !== 0 ) {
 			return;
 		}
 
-		$path = str_replace( 'RuleForgeLite\\', '', $class );
+		$path = str_replace( 'RuleForgeLite\\', '', $class_name );
 		$path = str_replace( '\\', '/', $path );
 
 		$parts = explode( '/', $path );

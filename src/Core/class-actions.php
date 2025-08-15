@@ -59,11 +59,10 @@ class Actions {
 	 * Convert to fees.
 	 *
 	 * @param array $applied The applied actions.
-	 * @param array $ctx The context.
 	 *
 	 * @return array
 	 */
-	public static function to_fees( array $applied, array $ctx ): array {
+	public static function to_fees( array $applied ): array {
 		$fees = array();
 		foreach ( $applied as $a ) {
 			$amount = (float) $a['amount'];
