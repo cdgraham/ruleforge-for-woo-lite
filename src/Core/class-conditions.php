@@ -82,10 +82,10 @@ class Conditions {
 			return $a < $b;
 		}
 		if ( '==' === $op ) {
-			return $a == $b;
+			return $a === $b;
 		}
 		if ( '!=' === $op ) {
-			return $a != $b;
+			return $a !== $b;
 		}
 		return false;
 	}
